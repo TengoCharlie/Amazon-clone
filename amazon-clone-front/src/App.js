@@ -1,9 +1,14 @@
 import "./App.css";
+import "./SCSS/Main.css";
+import Header from "./Components/Header";
 
 function App() {
   return (
+    // BEM convention
     <div className="app">
-      <h1>Hello every one</h1>
+      {/* Header */}
+      <Header />
+      {/* Home */}
     </div>
   );
 }
